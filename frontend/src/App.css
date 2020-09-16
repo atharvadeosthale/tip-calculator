@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8d8d8;
+  height: 100vh;
+}
+.app__container {
+  text-align: center;
+}
+.app__inputContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 5px black;
+}
+.app__inputContainer > input {
+  border: none;
+  height: 25px;
+  margin-left: 10px;
+}
+.app__inputContainer > input:focus {
+  outline: none;
+}
+.app__inputButton {
+  border: none;
+  background-color: #2ecc71;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 30px;
+  transition: background-color 0.1s ease-in;
+}
+.app__inputButton:focus {
+  outline: none;
+}
+.app__inputButton:hover {
+  background-color: #27ae60;
+}
